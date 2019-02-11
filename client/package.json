@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/papriika/papriika.com.git"
   },
-  "homepage": "https://github.com/papriika/papriika.com#readme",
+  "homepage": ".",
   "bugs": {
     "url": "https://github.com/papriika/papriika.com/issues/new"
   },

@@ -21,9 +21,6 @@ class App extends Component {
       <Router>
         <div className="App">
           <Route exact path="/" component={Home} />
-          {/*<Route path="/subscribe" component={Subscribe} />*/}
-          {/* when none of the above match, <NoMatch> will be rendered */}
-          {/*<Route component={NoMatch} />*/}
         </div>
       </Router>
     );
