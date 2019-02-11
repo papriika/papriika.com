@@ -30,7 +30,7 @@ class Navbar extends Component {
             <img
               src={logoWordmarkDark} 
               className="navbar-brand-img" 
-              logoAlt="Papriika Logo"/>
+              alt="Papriika Logo"/>
           </a>
           <NavbarToggler className="d-flex align-items-right navbar-toggler-dark"/>
           <div className="collapse navbar-collapse" id="navbarBasic">
@@ -44,7 +44,7 @@ class Navbar extends Component {
                 <img
                   src={logoWordmarkDark} 
                   className="navbar-brand-img" 
-                  logoAlt="Papriika Logo"/>
+                  alt="Papriika Logo"/>
               </a>
             </Div>
             <span className="navbar-text navbar-text-tagline">

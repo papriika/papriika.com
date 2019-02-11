@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import CopyrightUpdate from 'copyright-update';
-import styled from 'styled-components';
 import FooterSocial from '../components/FooterSocial';
 import logoWordmarkLight from './../img/papriika-logo-wordmark-1-white.svg';
 
@@ -48,7 +47,7 @@ class Footer extends Component {
         <img
           src={logoWordmarkLight} 
           className="" 
-          logoAlt="Papriika Logo"/>
+          alt="Papriika Logo"/>
         <div className="small text-white-50 font-weight-bold mb-5">
           <ul className="list-inline my-2">
             <FooterSocial 
