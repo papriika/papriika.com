@@ -1,7 +1,8 @@
 const express = require('express');
 const morgan = require('morgan'); // Used for testing in terminal
-const path = require('path');
 const app = express();
+const path = require('path');
+const port = process.env.PORT || 5000;
 
 //Static file declaration
 app.use(express.static(path.join(__dirname, 'client/build')));
@@ -19,7 +20,7 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname+'/client/public/index.html'));
 })
 
-//Start server
-const PORT = process.env.PORT || 5000;
-
-app.listen(PORT, () => console.log(`Server listening on ${ PORT }`))
+//start server
+app.listen(port, (req, res) => {
+  console.log( `Server listening on port: ${port}`);
+})
