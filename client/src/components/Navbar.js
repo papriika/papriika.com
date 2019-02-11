@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import '../css/Navbar.css';
-import Logo from '../components/Logo';
 import NavbarToggler from '../components/NavbarToggler';
+import logoWordmarkDark from './../img/papriika-logo-wordmark-1.svg';
 
 const Nav = styled.nav`
   padding-top: 0.15rem;
@@ -27,18 +27,24 @@ class Navbar extends Component {
         style={this.props.style}>
         <div className="container">
           <a className="navbar-brand d-flex align-items-center" href="/">
-            <Logo className="navbar-brand-img" logoAlt="Papriika Logo"/>
+            <img
+              src={logoWordmarkDark} 
+              className="navbar-brand-img" 
+              logoAlt="Papriika Logo"/>
           </a>
           <NavbarToggler className="d-flex align-items-right navbar-toggler-dark"/>
           <div className="collapse navbar-collapse" id="navbarBasic">
             <Div className="container d-flex align-items-center justify-content-center d-md-none">
               <a 
-              className="navbar-brand d-flex align-items-center justify-content-center" 
-              href="/"
-              style={{
+                className="navbar-brand d-flex align-items-center justify-content-center" 
+                href="/"
+                style={{
                 marginRight: 0
               }}>
-                <Logo className="navbar-brand-img" logoAlt="Papriika Logo"/>
+                <img
+                  src={logoWordmarkDark} 
+                  className="navbar-brand-img" 
+                  logoAlt="Papriika Logo"/>
               </a>
             </Div>
             <span className="navbar-text navbar-text-tagline">

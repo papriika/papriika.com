@@ -3,6 +3,7 @@ const morgan = require('morgan'); // Used for debugging in terminal
 const request = require('request');
 const bodyParser = require('body-parser');
 const path = require('path');
+
 const app = express();
 
 app.use(morgan('short'));
