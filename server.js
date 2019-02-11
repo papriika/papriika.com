@@ -6,16 +6,15 @@ const app = express();
 //Static file declaration
 app.use(express.static(path.join(__dirname, 'client/build')));
 
-//Production mode
+//production mode
 if(process.env.NODE_ENV === 'production') {
   app.use(express.static(path.join(__dirname, 'client/build')));
   //
   app.get('*', (req, res) => {
-    res.sendfile(path.join(__dirname = 'client/public/index.html'));
+    res.sendfile(path.join(__dirname = 'client/build/index.html'));
   })
 }
-
-//Build mode
+//build mode
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname+'/client/public/index.html'));
 })
