@@ -1,16 +1,7 @@
-/* App.css */
+/* Footer */
 
-.letter-space {
-  letter-spacing: .03em;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-.line {
-  height: 1px;
-  width: 100%;
+.footer-brand-img {
+  width: 90px;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -21,20 +12,19 @@ a:hover {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  h3 {
-    font-weight: 800;
+
+  .footer-brand-img {
+    padding: 0;
+    width: 100px;
   }
+  
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {}
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  .hero {
-    /*max-width: 1440px;*/
-  }
-}
+@media (min-width: 1200px) {}
 
 /* Extra Extra small devices devices */
 @media (max-width:348px) {}
@@ -46,11 +36,7 @@ a:hover {
 @media (max-width: 767.98px) {}
 
 /* Medium devices (tablets, less than 992px)*/
-@media (max-width: 991.98px) {
-  .container {
-    max-width: none;
-  }
-}
+@media (max-width: 991.98px) {}
 
 /* Large devices (desktops, less than 1200px)*/
 @media (max-width: 1199.98px) {}

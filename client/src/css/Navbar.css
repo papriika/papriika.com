@@ -124,8 +124,6 @@ button.navbar-toggler {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  
-  /* Navbar */
 
   .navbar {
     height: 53px;

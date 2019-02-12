@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import '../css/Navbar.css';
 import NavbarToggler from '../components/NavbarToggler';
 import logoWordmarkDark from './../img/papriika-logo-wordmark-1.svg';
+import '../css/Navbar.css';
 
 const Nav = styled.nav`
   padding-top: 0.15rem;

@@ -1,25 +1,24 @@
 import React, { Component } from 'react';
-import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
-const ListItem = styled.li`
-  line-height: 25px;
-`;
 
 class FooterSocial extends Component {
   render() {
-    return this.props.footerSocialItems.map((item, i) => (
-      <ListItem key={i} className="list-inline-item mx-2">
+    return this.props.footerSocialItems.map((item) => (
+      <li key={item.id} className="list-inline-item mx-2">
         <a 
           href={item.href} 
           alt={item.alt}
-          className="text-white">
+          className="text-white"
+          style={{
+            fontSize: '1.2rem'
+          }}
+          >
           <FontAwesomeIcon 
             className="mr-1" 
             icon={[`fab`, `${item.icon}`]}
             />
         </a>
-      </ListItem>
+      </li>
     ));
   }
 }
