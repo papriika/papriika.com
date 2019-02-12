@@ -3,6 +3,8 @@ import styled from 'styled-components';
 import Alert from '../components/Alert';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import SignUp from '../components/SignUp';
+import Newsletter from '../components/Newsletter';
 import Background from './../img/hotels/hotel-142-shanghai-puli-hotel-spa-01.jpg';
 
 const Overlay = styled.div`
@@ -66,6 +68,8 @@ class Home extends Component {
                   Access the world's best hotels direct.
                     <HeadVariable> Pay no booking fees</HeadVariable>.
                 </div>
+                <SignUp />
+                <Newsletter />
                 <Lead className="lead font-weight-normal text-center mx-auto mb-4">
                   We use the blockchain to provide clear and open pricing. Saving hotels and you money.
                 </Lead>
