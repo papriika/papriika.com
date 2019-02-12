@@ -59,21 +59,21 @@ class Footer extends Component {
                 marginLeft: '-3px'
               }}/>
           </div>
-          <div className="mb-5">
+          <div className="">
             <div className="row">
-              <div className="col-sm-6 col-md-3 ml-auto">
+              <div className="col-sm-6 col-md-3 mb-4b ml-auto">
                 <ul className="list-unstyled my-2">
                   <li className="d-block text-white mb-3">Destinations</li>
                   <FooterListDestinations className="text-white" />
                 </ul>
               </div>
-              <div className="col-sm-6 col-md-3">
+              <div className="col-sm-6 col-md-3 mb-4b">
                 <ul className="list-unstyled my-2">
                   <li className="d-block text-white mb-3">Memberships</li>
                   <FooterListMembers className="text-white" />
                 </ul>
               </div>
-              <div className="col-sm-6 col-md-3">
+              <div className="col-sm-6 col-md-3 mb-4b">
                 <ul className="list-unstyled my-2">
                   <li className="d-block text-white mb-3">Company</li>
                   <FooterListCompany className="text-white" />
