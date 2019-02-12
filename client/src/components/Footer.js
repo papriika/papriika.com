@@ -50,7 +50,7 @@ class Footer extends Component {
         style={this.props.style}>
 
         <div className="container pt-6 pb-6">
-          <div className="mb-4c">
+          <div className="mb-4b">
             <img
               src={logoWordmarkLight} 
               className="navbar-brand-img" 
@@ -61,19 +61,19 @@ class Footer extends Component {
           </div>
           <div className="">
             <div className="row">
-              <div className="col-sm-6 col-md-3 mb-4b ml-auto">
+              <div className="col-sm-6 col-md-3 mb-4 ml-auto">
                 <ul className="list-unstyled my-2">
                   <li className="d-block text-white mb-3">Destinations</li>
                   <FooterListDestinations className="text-white" />
                 </ul>
               </div>
-              <div className="col-sm-6 col-md-3 mb-4b">
+              <div className="col-sm-6 col-md-3 mb-4">
                 <ul className="list-unstyled my-2">
                   <li className="d-block text-white mb-3">Memberships</li>
                   <FooterListMembers className="text-white" />
                 </ul>
               </div>
-              <div className="col-sm-6 col-md-3 mb-4b">
+              <div className="col-sm-6 col-md-3 mb-4">
                 <ul className="list-unstyled my-2">
                   <li className="d-block text-white mb-3">Company</li>
                   <FooterListCompany className="text-white" />
