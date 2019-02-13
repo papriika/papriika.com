@@ -3,6 +3,7 @@ const morgan = require('morgan');
 const request = require('request');
 const bodyParser = require('body-parser');
 const path = require('path');
+const config = require('./config');
 
 const app = express();
 
@@ -32,7 +33,7 @@ app.post('/', (req, res) => {
     members: [
       {
         email_address: email,
-        status: 'subscribed',
+        status: 'pending',
         merge_fields: {
           FNAME: firstName,
           LNAME: lastName
@@ -50,7 +51,7 @@ app.post('/', (req, res) => {
     url: 'https://us4.api.mailchimp.com/3.0/lists/c35420fd22',
     method: 'POST',
     headers: {
-      Authorization: 'auth 4a6b639f66dfda5ef5353b35bffebfe7-us4'
+      Authorization: `auth ${config.mailchimpAPI}`,
     },
     body: postData
   };

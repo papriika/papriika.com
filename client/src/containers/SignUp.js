@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import CopyrightUpdate from 'copyright-update';
 import FormSignup from '../components/FormSignup';
-import '../css/Signup.css';
+import '../css/SignUp.css';
 import logoWordmarkDark from './../img/papriika-logo-wordmark-1.svg';
 import Background from './../img/hotels/hotel-142-beijing-waldorf-astoria-beijing.jpg';
 

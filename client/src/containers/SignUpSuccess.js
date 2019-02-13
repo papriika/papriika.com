@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import CopyrightUpdate from 'copyright-update';
-import '../css/Signup.css';
+import '../css/SignUp.css';
 import logoWordmarkDark from './../img/papriika-logo-wordmark-1.svg';
 
 // Using a ES6 class component as it contains state.
