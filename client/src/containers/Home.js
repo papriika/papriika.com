@@ -3,8 +3,6 @@ import styled from 'styled-components';
 import Alert from '../components/Alert';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import SignUp from '../components/SignUp';
-import Newsletter from '../components/Newsletter';
 import Background from './../img/hotels/hotel-142-shanghai-puli-hotel-spa-01.jpg';
 
 const Overlay = styled.div`
@@ -42,7 +40,9 @@ const HeadVariable = styled.span`
 class Home extends Component {
   render() {
     return (
-      <div>
+      <div style={{
+        backgroundColor: '#fff'
+      }}>
         <Alert
           size="alert-small"
           color="alert-black"
@@ -68,8 +68,6 @@ class Home extends Component {
                   Access the world's best hotels direct.
                     <HeadVariable> Pay no booking fees</HeadVariable>.
                 </div>
-                <SignUp />
-                <Newsletter />
                 <Lead className="lead font-weight-normal text-center mx-auto mb-4">
                   We use the blockchain to provide clear and open pricing. Saving hotels and you money.
                 </Lead>
@@ -81,10 +79,10 @@ class Home extends Component {
                       fontWeight: '700',
                       letterSpacing: '.03em',
                       textTransform: 'uppercase',
-                      padding: '16px 56px',
+                      padding: '20px 56px',
                       borderRadius: '6px'
                     }}
-                    href="mailto:join@papriika.com?subject=Join the club. Become an early member and receive 50% off! — Papriika.com" 
+                    href="/signup" 
                     role="button">
                     Join the club!
                   </a>

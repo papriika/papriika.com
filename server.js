@@ -15,10 +15,54 @@ app.use(bodyParser.urlencoded({extended: true}));
 // Static path
 app.use(express.static(path.join(__dirname, 'client/build')));
 
-// Route to client
+// Signup route
 app.post('/', (req, res) => {
-  console.log(req.body);
-  res.send('Hello, Guy');
+  const { firstName, lastName, email } = req.body;
+  // console.log(req.body);
+  // res.send('Hello, Guy');
+
+  // Validation
+  if (!email) {
+    res.redirect('/signup-error');
+    return;
+  }
+
+  // Construct req data
+  const data = {
+    members: [
+      {
+        email_address: email,
+        status: 'subscribed',
+        merge_fields: {
+          FNAME: firstName,
+          LNAME: lastName
+        }
+      }
+    ]
+  };
+
+  const postData = JSON.stringify(data);
+
+  const options = {
+    url: 'https://us4.api.mailchimp.com/3.0/lists/d588ef2845',
+    method: 'POST',
+    headers: {
+      Authorization: 'auth 4a6b639f66dfda5ef5353b35bffebfe7-us4'
+    },
+    body: postData
+  };
+
+  request(options, (err, response, body) => {
+    if(err) {
+      res.redirect('/signup-error');
+    } else {
+      if(response.statusCode === 200) {
+        res.redirect('/signup-success');
+      } else {
+        res.redirect('/signup-error');
+      }
+    }
+  });
 });
 
 //Production mode

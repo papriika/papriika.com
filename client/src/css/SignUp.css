@@ -1,5 +1,78 @@
 /* SignUp */
 
+.card {
+  border: none;
+  margin-top: 0px;
+  height: 100vh;
+  border-radius: 0;
+}
+
+.brand {
+  display: inline-block;
+  margin-bottom: 25px;
+}
+.brand-img {
+  width: 110px;
+}
+
+label {
+  display: none;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 14px;
+  color: #000;
+  margin-top: 18px;
+  letter-spacing: .03em;
+}
+
+input, .form-control {
+  border-radius: 4px;
+}
+
+.form-control {
+  color: #000;
+  font-weight: 500;
+  letter-spacing: .03em;
+  padding: 25px 20px;
+  background-color: #F1F4F7; /* Light Steel */
+  border: 2px solid #F1F4F7; /* Light Steel */
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.form-control:hover {
+  background-color: #fff;
+  border: 2px solid #F5F5F5;
+  box-shadow: none;
+  transition: all 0.25s ease-in-out;
+}
+.form-control:focus {
+  color: #000;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-shadow: none;
+}
+.form-control::-webkit-input-placeholder {
+  color: #9E9E9E;;
+  transition: opacity 0.25s ease-in-out;
+}
+:hover::-webkit-input-placeholder {
+  color: #9E9E9E;
+  transition: opacity 0.25s ease-in-out;
+}
+:focus::-webkit-input-placeholder {
+  color: #000;
+  opacity: 0.25;
+  transition: opacity 0.25s ease-in-out;
+  box-shadow: none;
+}
+.btn-signup {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  padding: 15px 56px;
+  border-radius: 3px;
+}
 
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -9,7 +82,22 @@
 @media (min-width: 576px) {}
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+  .card {
+    border: none;
+    padding: 40px;
+    margin-top: 48px;
+    max-width: 550px;
+    height: auto;
+    
+  }
+  .brand {
+    margin-bottom: 40px;
+  }
+  .brand-img {
+    width: 135px;
+  }
+}
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {}
