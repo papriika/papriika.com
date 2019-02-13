@@ -116,6 +116,17 @@ button.navbar-toggler {
   transform: rotate(0);
 }
 
+.nav-button {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  padding: 8px 16px;
+  border-radius: 2px;
+  margin-top: 16px;
+  margin-left: 0;
+}
+
 /* Extra small devices (portrait phones, less than 576px) */
 /* No media query for `xs` since this is the default in Bootstrap */
 
@@ -163,7 +174,12 @@ button.navbar-toggler {
     padding: 0; /* Resets padding on navbar dropdown */
     height: auto; /* Resets vh on small device dropdown */
   }
-  
+  .nav-button {
+    max-width: 250px;
+    min-width: 100px;
+    margin-top: 1px;
+    margin-left: 16px;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */

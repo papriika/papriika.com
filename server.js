@@ -43,8 +43,11 @@ app.post('/', (req, res) => {
 
   const postData = JSON.stringify(data);
 
+  // Test API - d588ef2845
+  // Papriika API c35420fd22
+
   const options = {
-    url: 'https://us4.api.mailchimp.com/3.0/lists/d588ef2845',
+    url: 'https://us4.api.mailchimp.com/3.0/lists/c35420fd22',
     method: 'POST',
     headers: {
       Authorization: 'auth 4a6b639f66dfda5ef5353b35bffebfe7-us4'

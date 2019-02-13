@@ -61,6 +61,12 @@ class Navbar extends Component {
                   Contact
                 </a>
               </li>
+              <li className="nav-item">
+                <a 
+                  className="btn btn-sm btn-primary btn-block nav-button" 
+                  href="/signup"
+                  >Sign up</a>
+              </li>
             </ul>
           </div>
         </div>

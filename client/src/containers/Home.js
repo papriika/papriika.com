@@ -73,20 +73,21 @@ class Home extends Component {
                 </Lead>
                 <div className="text-center">
                   <a
-                    className="btn btn-lg btn-primary mb-3"
+                    className="btn btn-lg btn-primary btn-block mx-auto mb-3"
                     style={{
                       fontSize: '14px',
                       fontWeight: '700',
                       letterSpacing: '.03em',
                       textTransform: 'uppercase',
                       padding: '20px 56px',
-                      borderRadius: '6px'
+                      borderRadius: '6px',
+                      maxWidth: '325px'
                     }}
                     href="/signup" 
                     role="button">
-                    Join the club!
+                    Sign Up
                   </a>
-                  <p className="small">Become an early member today and save!</p>
+                  <p className="small">Sign up and we'll notify you when the app is ready!</p>
                 </div>
               </div>
             </Overlay>
