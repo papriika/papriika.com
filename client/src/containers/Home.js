@@ -58,15 +58,16 @@ class Home extends Component {
         <div className="container-fluid pl-0 pr-0 hero">
           <div className="row no-gutters">
             <Overlay className="col d-flex align-items-center justify-content-center text-white p-4">
-              <div className="container">
+              <div className="container"
+                style={{
+                  maxWidth: '900px'
+                }}>
                 <div className="display-4 text-center"
                   style={{
                     fontFamily: 'Judson, serif',
                     fontWeight: '500'
                   }}>
-                  <HeadVariable>Join the club!<br /></HeadVariable>
-                  Access the world's best hotels direct.
-                    <HeadVariable> Pay no booking fees</HeadVariable>.
+                  Access <HeadVariable>to over 2,400 of </HeadVariable>the world's best hotels.
                 </div>
                 <Lead className="lead font-weight-normal text-center mx-auto mb-4b">
                   We use the blockchain to provide clear and open pricing. Saving hotels and you money.

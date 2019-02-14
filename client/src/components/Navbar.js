@@ -47,8 +47,8 @@ class Navbar extends Component {
                   alt="Papriika Logo"/>
               </a>
             </Div>
-            <span className="navbar-text navbar-text-tagline">
-              The Hotel Club
+            <span className="navbar-text navbar-text-tagline d-none d-md-block">
+              Hotel Club
             </span>
             <ul className="navbar-nav ml-auto">
               <li className="nav-item d-md-none">
