@@ -1,6 +1,6 @@
-/* #1700c4   BLUE    -------- */
- ::selection{background:rgba(23,0,196,0.99);color:#fff;}
- ::-moz-selection{background:rgba(23,0,196,0.99);color:#fff;}
+/* #a9c9fc;   Blue 2    -------- */
+ ::selection{background:rgba(169,201,252,0.75);color:#000;}
+ ::-moz-selection{background:rgba(169,201,252,0.75);color:#000;}
 
 * {
   -webkit-tap-highlight-color: transparent;
