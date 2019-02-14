@@ -64,7 +64,7 @@ class Navbar extends Component {
               <li className="nav-item">
                 <a 
                   className="btn btn-sm btn-outline-black nav-button" 
-                  href="/signup"
+                  href="/subscribe"
                 >
                   Subscribe
                 </a>
