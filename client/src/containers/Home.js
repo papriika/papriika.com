@@ -68,26 +68,25 @@ class Home extends Component {
                   Access the world's best hotels direct.
                     <HeadVariable> Pay no booking fees</HeadVariable>.
                 </div>
-                <Lead className="lead font-weight-normal text-center mx-auto mb-4">
+                <Lead className="lead font-weight-normal text-center mx-auto mb-4b">
                   We use the blockchain to provide clear and open pricing. Saving hotels and you money.
                 </Lead>
                 <div className="text-center">
                   <a
-                    className="btn btn-lg btn-primary btn-block mx-auto mb-3"
+                    className="btn btn-lg btn-primary btn-block mx-auto mb-4"
                     style={{
                       fontSize: '14px',
                       fontWeight: '700',
                       letterSpacing: '.03em',
                       textTransform: 'uppercase',
-                      padding: '20px 56px',
-                      borderRadius: '6px',
-                      maxWidth: '325px'
+                      padding: '15px 56px',
+                      maxWidth: '280px'
                     }}
                     href="/signup" 
                     role="button">
-                    Sign Up
+                    Subscribe
                   </a>
-                  <p className="small">Sign up and we'll notify you when the app is ready!</p>
+                  <p>Subscribe to receive updates.</p>
                 </div>
               </div>
             </Overlay>

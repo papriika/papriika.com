@@ -121,10 +121,10 @@ button.navbar-toggler {
   font-weight: 700;
   letter-spacing: .03em;
   text-transform: uppercase;
-  padding: 8px 16px;
-  border-radius: 2px;
+  padding: 12px;
   margin-top: 16px;
   margin-left: 0;
+  width: 100%;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -175,8 +175,8 @@ button.navbar-toggler {
     height: auto; /* Resets vh on small device dropdown */
   }
   .nav-button {
-    max-width: 250px;
-    min-width: 100px;
+    width: auto;
+    padding: 8px 16px;
     margin-top: 1px;
     margin-left: 16px;
   }
