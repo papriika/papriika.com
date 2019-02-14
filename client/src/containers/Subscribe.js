@@ -52,8 +52,7 @@ class Subscribe extends Component {
                     marginTop: '16px'
                   }}
                   href="/" 
-                  role="button"
-                  tabIndex="1">
+                  role="button">
                   Back
                 </a>
             </div>
