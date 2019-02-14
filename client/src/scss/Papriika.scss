@@ -7,6 +7,7 @@ $picotee-900:   #181846;
 
 $theme-colors: (
   "primary":   #1700c4,
+  "secondary": #eee,
   "black":     #000,
 );
 
@@ -30,6 +31,12 @@ $navbar-dark-active-color:          primary;
 $navbar-light-color:                 rgba(#000, 1);
 $navbar-light-hover-color:           rgba(#000, .5);
 $navbar-light-active-color:          primary;
+
+// Links
+
+$link-color:                $black;
+$link-hover-color:          $gray-500;
+$link-hover-decoration:     underline;
 
 // Buttons
 //

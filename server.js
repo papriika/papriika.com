@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 // Static path
 app.use(express.static(path.join(__dirname, 'client/build')));
 
-// Signup route
+// Subscribe route
 app.post('/', (req, res) => {
   const { firstName, lastName, email } = req.body;
   // console.log(req.body);
@@ -24,7 +24,7 @@ app.post('/', (req, res) => {
 
   // Validation
   if (!email) {
-    res.redirect('/signup-error');
+    res.redirect('/subscribe-error');
     return;
   }
 
@@ -55,12 +55,12 @@ app.post('/', (req, res) => {
 
   request(options, (err, response, body) => {
     if(err) {
-      res.redirect('/signup-error');
+      res.redirect('/subscribe-error');
     } else {
       if(response.statusCode === 200) {
-        res.redirect('/signup-success');
+        res.redirect('/subscribe-success');
       } else {
-        res.redirect('/signup-error');
+        res.redirect('/subscribe-error');
       }
     }
   });

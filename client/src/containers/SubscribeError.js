@@ -1,20 +1,10 @@
 import React, { Component } from 'react';
-import styled from 'styled-components';
 import CopyrightUpdate from 'copyright-update';
-import FormSignup from '../components/FormSignup';
-import '../css/SignUp.css';
+import '../css/Subscribe.css';
 import logoWordmarkDark from './../img/papriika-logo-wordmark-1.svg';
 
-const Div = styled.div`
-  text-align: center;
-
-  @media (min-width: 768px) {
-    text-align: left;
-  }
-`;
-
 // Using a ES6 class component as it contains state.
-class SignUp extends Component {
+class SubscribeError extends Component {
   render() {
     return (
       <div className="container-fluid pl-0 pr-0">
@@ -28,7 +18,7 @@ class SignUp extends Component {
           ">
           <div className="card col-md-8">
             <div className="card-body">
-              <Div className="mb-4">
+              <div className="text-center mb-4">
                 <a href="/" className="brand">
                   <img
                     className="brand-img"
@@ -36,14 +26,24 @@ class SignUp extends Component {
                     alt="Papriika Logo"
                   />
                 </a>
-                <p className="lead font-weight-bold">
-                  Access over 2,400 of the world's best hotels. Get notified.
+                <p className="lead-md font-weight-bold">
+                  :(&nbsp;&nbsp;Sorry
                 </p>
-                <p>
-                  Receive the latest updates, news, features, destinations, member benefits and more…
+                <p className="mb-4b">
+                  Something went wrong. Please go back and make sure all fields are filled out correctly.
                 </p>
-              </Div>
-              <FormSignup />
+                <a
+                  className="btn btn-primary btn-subscribe mx-auto"
+                  style={{
+                    textDecoration: 'none',
+                    maxWidth: '280px'
+                  }}
+                  href="/subscribe" 
+                  role="button"
+                  tabIndex="1">
+                  Back
+                </a>
+              </div>
             </div>
             <div className="text-center small letter-space mt-9 mb-2">
               <CopyrightUpdate 
@@ -60,4 +60,4 @@ class SignUp extends Component {
   }
 }
 
-export default SignUp;
+export default SubscribeError;

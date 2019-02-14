@@ -1,10 +1,20 @@
 import React, { Component } from 'react';
+import styled from 'styled-components';
 import CopyrightUpdate from 'copyright-update';
-import '../css/SignUp.css';
+import SubscribeForm from '../components/SubscribeForm';
+import '../css/Subscribe.css';
 import logoWordmarkDark from './../img/papriika-logo-wordmark-1.svg';
 
+const Div = styled.div`
+  text-align: center;
+
+  @media (min-width: 768px) {
+    text-align: left;
+  }
+`;
+
 // Using a ES6 class component as it contains state.
-class SignUpError extends Component {
+class Subscribe extends Component {
   render() {
     return (
       <div className="container-fluid pl-0 pr-0">
@@ -18,7 +28,7 @@ class SignUpError extends Component {
           ">
           <div className="card col-md-8">
             <div className="card-body">
-              <div className="text-center mb-4">
+              <Div className="mb-4">
                 <a href="/" className="brand">
                   <img
                     className="brand-img"
@@ -27,22 +37,25 @@ class SignUpError extends Component {
                   />
                 </a>
                 <p className="lead font-weight-bold">
-                  Sorry
+                  Access over 2,400 of the world's best hotels. Subscribe.
                 </p>
                 <p>
-                  Something went wrong. Please go back and make sure all fields are filled out correctly.
+                  Receive the latest updates, news, features, destinations, member benefits and more…
                 </p>
-                <a
-                  className="btn btn-primary btn-signup btn-block"
+              </Div>
+              <SubscribeForm />
+              <a
+                  className="btn btn-link btn-subscribe btn-block mx-auto"
                   style={{
-                    textDecoration: 'none'
+                    textDecoration: 'none',
+                    maxWidth: '280px',
+                    marginTop: '16px'
                   }}
-                  href="/signup" 
+                  href="/" 
                   role="button"
                   tabIndex="1">
                   Back
                 </a>
-              </div>
             </div>
             <div className="text-center small letter-space mt-9 mb-2">
               <CopyrightUpdate 
@@ -59,4 +72,4 @@ class SignUpError extends Component {
   }
 }
 
-export default SignUpError;
+export default Subscribe;

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Home from './containers/Home';
-import SignUp from './containers/SignUp';
-import SignUpError from './containers/SignUpError';
-import SignUpSuccess from './containers/SignUpSuccess';
+import Subscribe from './containers/Subscribe';
+import SubscribeError from './containers/SubscribeError';
+import SubscribeSuccess from './containers/SubscribeSuccess';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './css/App.css';
 
@@ -24,9 +24,9 @@ class App extends Component {
       <Router>
         <div className="App">
           <Route exact path="/" component={Home} />
-          <Route path="/signup" component={SignUp} />
-          <Route path="/signup-error" component={SignUpError} />
-          <Route path="/signup-success" component={SignUpSuccess} />
+          <Route path="/subscribe" component={Subscribe} />
+          <Route path="/subscribe-error" component={SubscribeError} />
+          <Route path="/subscribe-success" component={SubscribeSuccess} />
         </div>
       </Router>
     );

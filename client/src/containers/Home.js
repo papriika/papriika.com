@@ -82,7 +82,7 @@ class Home extends Component {
                       padding: '15px 56px',
                       maxWidth: '280px'
                     }}
-                    href="/signup" 
+                    href="/subscribe" 
                     role="button">
                     Subscribe
                   </a>

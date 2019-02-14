@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import CopyrightUpdate from 'copyright-update';
-import '../css/SignUp.css';
+import '../css/Subscribe.css';
 import logoWordmarkDark from './../img/papriika-logo-wordmark-1.svg';
 
 // Using a ES6 class component as it contains state.
-class SignUpSuccess extends Component {
+class SubscribeSuccess extends Component {
   render() {
     return (
       <div className="container-fluid pl-0 pr-0">
@@ -26,14 +26,17 @@ class SignUpSuccess extends Component {
                     alt="Papriika Logo"
                   />
                 </a>
-                <p className="lead font-weight-bold">
-                  Success!
+                <p className="lead-md font-weight-bold">
+                  Almost finished...
                 </p>
                 <p>
-                  You are now signed up for updates.
+                  We need to confirm your email address.
+                </p>
+                <p className="mb-4b">
+                  To complete the subscription process, please click the link in the email we just sent you.
                 </p>
                 <a
-                  className="btn btn-primary btn-signup btn-block"
+                  className="btn btn-secondary btn-subscribe mx-auto"
                   style={{
                     textDecoration: 'none'
                   }}
@@ -59,4 +62,4 @@ class SignUpSuccess extends Component {
   }
 }
 
-export default SignUpSuccess;
+export default SubscribeSuccess;

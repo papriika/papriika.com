@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class FormSignup extends Component {
+class SubscribeForm extends Component {
   render() {
     return (
       <form action="/" method="POST">
@@ -16,7 +16,7 @@ class FormSignup extends Component {
             type="text"
             id="firstName"
             className="form-control"
-            placeholder="First name"
+            placeholder="First name (optional)"
             autoComplete="off"
             tabIndex="1"
             aria-invalid="false"
@@ -34,7 +34,7 @@ class FormSignup extends Component {
             type="text"
             id="lastName"
             className="form-control"
-            placeholder="Last name"
+            placeholder="Last name (optional)"
             autoComplete="off"
             tabIndex="2"
             aria-invalid="false"
@@ -59,11 +59,11 @@ class FormSignup extends Component {
             aria-activedescendant="email-item-0" />
         </div>
         <div>
-          <input type="submit" value="Subscribe" tabIndex="4" className="btn btn-black btn-signup btn-block"/>
+          <input type="submit" value="Subscribe" tabIndex="4" className="btn btn-black btn-subscribe btn-block"/>
         </div>
       </form>
     );
   }
 }
 
-export default FormSignup;
+export default SubscribeForm;

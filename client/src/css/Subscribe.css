@@ -1,4 +1,4 @@
-/* SignUp */
+/* Subscribe */
 
 .card {
   border: none;
@@ -34,8 +34,8 @@ input, .form-control {
   font-weight: 500;
   letter-spacing: .03em;
   padding: 25px 20px;
-  background-color: #F1F4F7; /* Light Steel */
-  border: 2px solid #F1F4F7; /* Light Steel */
+  background-color: #F5F5F5; /* Light Steel */
+  border: 2px solid #F5F5F5; /* Light Steel */
   margin-top: 8px;
   margin-bottom: 8px;
 }
@@ -52,11 +52,11 @@ input, .form-control {
   box-shadow: none;
 }
 .form-control::-webkit-input-placeholder {
-  color: #9E9E9E;;
+  color: #616161;;
   transition: opacity 0.25s ease-in-out;
 }
 :hover::-webkit-input-placeholder {
-  color: #9E9E9E;
+  color: #616161;
   transition: opacity 0.25s ease-in-out;
 }
 :focus::-webkit-input-placeholder {
@@ -65,13 +65,12 @@ input, .form-control {
   transition: opacity 0.25s ease-in-out;
   box-shadow: none;
 }
-.btn-signup {
+.btn-subscribe {
   font-size: 13px;
   font-weight: 700;
   letter-spacing: .03em;
   text-transform: uppercase;
   padding: 15px 56px;
-  border-radius: 3px;
 }
 
 
