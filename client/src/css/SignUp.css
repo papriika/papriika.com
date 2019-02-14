@@ -95,7 +95,8 @@ input, .form-control {
     margin-bottom: 40px;
   }
   .brand-img {
-    width: 135px;
+    width: 130px;
+    margin-left: -2px;
   }
 }
 

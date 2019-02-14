@@ -4,17 +4,6 @@ import CopyrightUpdate from 'copyright-update';
 import FormSignup from '../components/FormSignup';
 import '../css/SignUp.css';
 import logoWordmarkDark from './../img/papriika-logo-wordmark-1.svg';
-import Background from './../img/hotels/hotel-142-beijing-waldorf-astoria-beijing.jpg';
-
-const Overlay = styled.div`
-  background: linear-gradient(
-    rgba(0, 0, 0, 0.75), 
-    rgba(0, 0, 0, 0.75)
-  ), url(${Background});
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-`;
 
 const Div = styled.div`
   text-align: center;
@@ -28,7 +17,7 @@ const Div = styled.div`
 class SignUp extends Component {
   render() {
     return (
-      <Overlay className="container-fluid pl-0 pr-0">
+      <div className="container-fluid pl-0 pr-0">
         <div 
           className="
             container-fluid 
@@ -66,7 +55,7 @@ class SignUp extends Component {
             </div>
           </div>
         </div>
-      </Overlay>
+      </div>
     );
   }
 }
