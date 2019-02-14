@@ -57,7 +57,7 @@ class Subscribe extends Component {
                   Back
                 </a>
             </div>
-            <div className="text-center small letter-space mt-9 mb-2">
+            <div className="text-center small letter-space mt-9 mb-4">
               <CopyrightUpdate 
                 style={{
                   display: 'inline-block'

@@ -2,7 +2,7 @@
 
 .card {
   border: none;
-  margin-top: 0px;
+  padding-top: 40px;
   height: 100vh;
   border-radius: 0;
 }
