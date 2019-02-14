@@ -84,7 +84,8 @@ class Home extends Component {
                       maxWidth: '280px'
                     }}
                     href="/subscribe" 
-                    role="button">
+                    role="button"
+                    tabindex="1">
                     Subscribe
                   </a>
                   <p>Subscribe to receive updates.</p>
