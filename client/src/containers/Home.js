@@ -98,15 +98,6 @@ class Home extends Component {
           href="mailto:inquiries@papriika.com?subject=Early membership inquiry 50% off — Papriika.com" 
           alt="Early Papriika membership inquiry 50% off"
           >
-          <Alert
-            color="alert-primary"
-            className="text-center"
-            style={{
-              marginBottom: 0
-            }}
-            >
-            Early members receive <span style={{fontWeight: '900'}}>50% off</span> membership!
-          </Alert>
         </a>
         <Alert
           color="alert-black"
