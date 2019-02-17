@@ -84,7 +84,7 @@ class Home extends Component {
                     }}
                     href="/subscribe" 
                     role="button"
-                    tabindex="1">
+                    tabIndex="1">
                     Subscribe
                   </a>
                   <p>Subscribe to receive updates.</p>
