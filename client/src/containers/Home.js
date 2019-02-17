@@ -3,13 +3,12 @@ import styled from 'styled-components';
 import Alert from '../components/Alert';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import Background from './../img/hotels/hotel-142-shanghai-puli-hotel-spa-01.jpg';
 
 const Overlay = styled.div`
   background: linear-gradient(
     rgba(0, 0, 0, 0.5), 
     rgba(0, 0, 0, 0.5)
-  ), url(${Background});
+  ), url(https://storage.googleapis.com/papriika.com/destinations/hotel-142-shanghai-puli-hotel-spa-01.jpg);
   background-size: cover;
   background-position: center;
   height: 500px;
