@@ -73,7 +73,7 @@ class Home extends Component {
                 </Lead>
                 <div className="text-center">
                   <a
-                    className="btn btn-lg btn-primary btn-block mx-auto mb-4"
+                    className="btn btn-lg btn-light btn-block mx-auto mb-4"
                     style={{
                       fontSize: '14px',
                       fontWeight: '700',
