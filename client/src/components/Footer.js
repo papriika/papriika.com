@@ -48,16 +48,17 @@ class Footer extends Component {
       <footer 
         className={`container-fluid ${this.props.className}`}
         style={this.props.style}>
-
         <div className="container pt-6 pb-6">
           <div className="mb-4b">
-            <img
-              src={logoWordmarkLight} 
-              className="navbar-brand-img" 
-              alt="Papriika Logo"
-              style={{
-                marginLeft: '-3px'
-              }}/>
+            <a href="/">
+              <img
+                src={logoWordmarkLight} 
+                className="navbar-brand-img" 
+                alt="Papriika Logo"
+                style={{
+                  marginLeft: '-3px'
+                }}/>
+            </a>
           </div>
           <div className="">
             <div className="row">
