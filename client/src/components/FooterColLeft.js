@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class FooterListDestinations extends Component {
+class FooterColLeft extends Component {
   state = {
     data : [
       {
@@ -57,4 +57,4 @@ class FooterListDestinations extends Component {
   }
 }
 
-export default FooterListDestinations;
+export default FooterColLeft;
