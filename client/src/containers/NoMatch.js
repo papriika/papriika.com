@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Header from '../components/Navbar';
+import Navbar from '../components/Navbar';
 import Page404 from './Page404';
 
 class NoMatch extends Component {
