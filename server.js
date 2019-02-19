@@ -1,11 +1,17 @@
 const express = require('express');
+const http = require('http');
 const morgan = require('morgan');
 const request = require('request');
 const bodyParser = require('body-parser');
 const path = require('path');
 const config = require('./config');
+const enforce = require('express-sslify');
 
 const app = express();
+
+// Use enforce.HTTPS({ trustProtoHeader: true }) in case you are behind
+// a load balancer (e.g. Heroku). See further comments below
+app.use(enforce.HTTPS({ trustProtoHeader: true }))
 
 // Morgan http logging for debugging in terminal
 app.use(morgan('short'));
