@@ -6,7 +6,7 @@ class NoMatch extends Component {
   render() {
     return (
       <div className="d-flex w-100 h-100 mx-auto flex-column">
-        <Header />
+        <Navbar />
         <div 
           style={{
             paddingTop: '56px'
