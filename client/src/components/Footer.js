@@ -3,13 +3,13 @@ import CopyrightUpdate from 'copyright-update';
 import FooterColLeft from './FooterColLeft';
 import FooterColCenter from './FooterColCenter';
 import FooterColRight from './FooterColRight';
-import FooterSocial from './FooterSocial';
+import Social from './Social';
 import logoWordmarkLight from './../img/papriika-logo-wordmark-1-white.svg';
 import '../css/Footer.css';
 
 class Footer extends Component {
   state = {
-    footerSocialItems: [
+    socialItems: [
       {
         id: 1,
         href: 'https://github.com/papriika/',
@@ -83,16 +83,30 @@ class Footer extends Component {
             </div>
           </div>
           <div className="text-white-50 mb-4">
-            <div className="row">
-              <ul className="inline-list ml-auto"
+            <div className="row d-flex align-items-end">
+              <ul className="inline-list"
                 style={{
                   paddingRight: '2px',
                   paddingLeft: '8px'
                 }}>
-                <FooterSocial 
-                  footerSocialItems={this.state.footerSocialItems} 
+                <Social 
+                  socialItems={this.state.socialItems}
+                  className="text-white"
+                  listAlign="list-inline-item"
                 />
               </ul>
+              <div className="subscribe ml-auto pl-3 pr-3">
+                <p className="text-white small-font-size-90 mt-4">
+                  Subscribe our mailing list.
+                </p>
+                <a
+                  className="btn btn-light btn-block mx-auto mb-4"
+                  href="/subscribe" 
+                  role="button"
+                  tabIndex="1">
+                  Subscribe
+                </a>
+              </div>
             </div>
           </div>
           <div className="container line bg-white mb-4c"></div>

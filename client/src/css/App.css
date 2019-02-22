@@ -9,6 +9,22 @@
   width: 100%;
 }
 
+.btn {
+  font-size: 14px;
+  font-weight: 700;                    
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  padding: 12px 45px;
+}
+
+.btn-light:hover, 
+.btn-light:focus, 
+.btn-light:focus-within,
+.btn-light:active {
+  background-color: rgba(255,255,255,0)!important;
+  color: #fff!important;
+}
+
 /* Extra small devices (portrait phones, less than 576px) */
 /* No media query for `xs` since this is the default in Bootstrap */
 
@@ -19,6 +35,10 @@
 @media (min-width: 768px) {
   h3 {
     font-weight: 800;
+  }
+  
+  .btn {
+    padding: 15px 56px;
   }
 }
 

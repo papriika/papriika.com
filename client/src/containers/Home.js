@@ -73,13 +73,8 @@ class Home extends Component {
                 </Lead>
                 <div className="text-center">
                   <a
-                    className="btn btn-lg btn-light btn-block mx-auto mb-4"
+                    className="btn btn-light btn-block mx-auto mb-4"
                     style={{
-                      fontSize: '14px',
-                      fontWeight: '700',
-                      letterSpacing: '.03em',
-                      textTransform: 'uppercase',
-                      padding: '15px 56px',
                       maxWidth: '280px'
                     }}
                     href="/subscribe" 
