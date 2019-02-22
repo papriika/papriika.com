@@ -73,7 +73,7 @@ class Home extends Component {
                 </Lead>
                 <div className="text-center">
                   <a
-                    className="btn btn-light btn-block mx-auto mb-4"
+                    className="btn btn-white btn-block mx-auto mb-4"
                     style={{
                       maxWidth: '280px'
                     }}

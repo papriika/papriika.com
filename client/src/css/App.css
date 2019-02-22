@@ -17,12 +17,27 @@
   padding: 12px 45px;
 }
 
-.btn-light:hover, 
-.btn-light:focus, 
-.btn-light:focus-within,
-.btn-light:active {
+.btn-white {
+  color: #000;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.btn-white:hover, 
+.btn-white:focus, 
+.btn-white:focus-within,
+.btn-white:active {
   background-color: rgba(255,255,255,0)!important;
   color: #fff!important;
+}
+
+.btn-primary:hover {
+  color: #fff!important;
+}
+
+.btn-link:hover {
+  color: rgba(0,0,0,0.5)!important;
+  text-decoration: none;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */

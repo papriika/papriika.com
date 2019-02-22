@@ -45,16 +45,14 @@ class Subscribe extends Component {
               </Div>
               <SubscribeForm />
               <a
-                  className="btn btn-link btn-subscribe btn-block mx-auto"
-                  style={{
-                    textDecoration: 'none',
-                    maxWidth: '280px',
-                    marginTop: '16px'
-                  }}
-                  href="/" 
-                  role="button">
-                  Back
-                </a>
+                className="btn btn-link btn-subscribe btn-block mx-auto"
+                style={{
+                  marginTop: '16px'
+                }}
+                href="/" 
+                role="button">
+                Back to home
+              </a>
             </div>
             <div className="text-center small letter-space mt-9 mb-4">
               <CopyrightUpdate 
