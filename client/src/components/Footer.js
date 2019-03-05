@@ -60,24 +60,24 @@ class Footer extends Component {
                 }}/>
             </a>
           </div>
-          <div className="">
+          <div className="text-white">
             <div className="row">
               <div className="col-sm-6 col-md-3 mb-4 ml-auto">
                 <ul className="list-unstyled my-2">
-                  <li className="d-block text-white mb-3">Destinations</li>
-                  <FooterColLeft className="text-white" />
+                  <li className="d-block mb-3">Destinations</li>
+                  <FooterColLeft />
                 </ul>
               </div>
               <div className="col-sm-6 col-md-3 mb-4">
                 <ul className="list-unstyled my-2">
-                  <li className="d-block text-white mb-3">Memberships</li>
-                  <FooterColCenter className="text-white" />
+                  <li className="d-block mb-3">Memberships</li>
+                  <FooterColCenter />
                 </ul>
               </div>
               <div className="col-sm-6 col-md-3 mb-4">
                 <ul className="list-unstyled my-2">
-                  <li className="d-block text-white mb-3">Company</li>
-                  <FooterColRight className="text-white" />
+                  <li className="d-block mb-3">Company</li>
+                  <FooterColRight />
                 </ul>
               </div>
             </div>
@@ -91,13 +91,12 @@ class Footer extends Component {
                 }}>
                 <Social 
                   socialItems={this.state.socialItems}
-                  className="text-white"
                   listAlign="list-inline-item"
                 />
               </ul>
               <div className="subscribe ml-auto pl-3 pr-3">
                 <p className="text-white small-font-size-90 mt-4">
-                  Subscribe our mailing list.
+                  Subscribe to our mailing list.
                 </p>
                 <a
                   className="btn btn-white btn-block mx-auto mb-4"
@@ -109,7 +108,7 @@ class Footer extends Component {
               </div>
             </div>
           </div>
-          <div className="container line bg-white mb-4c"></div>
+          <div className="container line w-100 bg-white mb-4c"></div>
           <div className="small text-white-50 letter-space mb-2">
             Papriika is a <a href="http://universe.engineering" 
               alt="Universe.engineering"

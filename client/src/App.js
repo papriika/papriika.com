@@ -5,6 +5,7 @@ import Subscribe from './containers/Subscribe';
 import SubscribeError from './containers/SubscribeError';
 import SubscribeSuccess from './containers/SubscribeSuccess';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import './css/Buttons.css';
 import './css/App.css';
 
 class App extends Component {

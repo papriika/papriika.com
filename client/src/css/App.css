@@ -9,51 +9,10 @@
   width: 100%;
 }
 
-.btn {
-  font-size: 14px;
-  font-weight: 700;                    
-  letter-spacing: .03em;
-  text-transform: uppercase;
-  padding: 12px 45px;
-}
-
-.btn-white {
-  color: #000;
-  background-color: #fff;
-  border-color: #fff;
-}
-
-.btn-white:hover, 
-.btn-white:focus, 
-.btn-white:focus-within,
-.btn-white:active {
-  background-color: rgba(255,255,255,0)!important;
-  color: #fff!important;
-}
-
-.btn-primary:hover {
-  color: #fff!important;
-}
-
-.btn-link:hover {
-  color: rgba(0,0,0,0.5)!important;
-  text-decoration: none;
-}
-
-/* Extra small devices (portrait phones, less than 576px) */
-/* No media query for `xs` since this is the default in Bootstrap */
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {}
-
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   h3 {
     font-weight: 800;
-  }
-  
-  .btn {
-    padding: 15px 56px;
   }
 }
 
@@ -67,24 +26,9 @@
   }
 }
 
-/* Extra Extra small devices devices */
-@media (max-width:348px) {}
-
-/* Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {}
-
-/* Small devices (landscape phones, less than 768px)*/
-@media (max-width: 767.98px) {}
-
 /* Medium devices (tablets, less than 992px)*/
 @media (max-width: 991.98px) {
   .container {
     max-width: none;
   }
 }
-
-/* Large devices (desktops, less than 1200px)*/
-@media (max-width: 1199.98px) {}
-
-/* Extra large devices (large desktops)*/
-/* No media query since the extra-large breakpoint has no upper bound on its width */
