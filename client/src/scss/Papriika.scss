@@ -48,6 +48,11 @@ $theme-colors: map-merge(
 $light:                           #fff;
 $yiq-text-dark:                   $black;
 
+// Body 
+
+$body-bg:                         $white;
+$body-color:                      $black;
+
 // Links
 
 $link-hover-color:          $gray-600;
