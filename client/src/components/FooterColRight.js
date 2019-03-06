@@ -5,7 +5,7 @@ class FooterColRight extends Component {
     data : [
       {
         "id": 7,
-        "url": "mailto:support@papriika.com?subject=Mail from Papriika.com",
+        "url": "/contact",
         "text": "Contact",
         "alt": "Contact"
       }

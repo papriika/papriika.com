@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
 import Home from './containers/Home';
 import NoMatch from './containers/NoMatch';
+import Contact from './containers/Contact';
 import Subscribe from './containers/Subscribe';
 import SubscribeError from './containers/SubscribeError';
 import SubscribeSuccess from './containers/SubscribeSuccess';
+import MailerError from './containers/MailerError';
+import MailerSuccess from './containers/MailerSuccess';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './css/Buttons.css';
+import './css/Animations.css';
 import './css/App.css';
 
 class App extends Component {
@@ -27,9 +31,12 @@ class App extends Component {
         <BrowserRouter>
           <Switch>
             <Route exact path="/" component={Home} />
+            <Route path="/contact" component={Contact} />
             <Route path="/subscribe" component={Subscribe} />
             <Route path="/subscribe-error" component={SubscribeError} />
             <Route path="/subscribe-success" component={SubscribeSuccess} />
+            <Route path="/email-error" component={MailerError} />
+            <Route path="/email-success" component={MailerSuccess} />
             {/* when none of the above match, <NoMatch> will be rendered */}
             <Route component={NoMatch} />
           </Switch>

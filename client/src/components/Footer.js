@@ -47,7 +47,7 @@ class Footer extends Component {
     return (
       <footer 
         className={`container-fluid ${this.props.className}`}
-        style={this.props.style}>
+        style={{backgroundColor: '#000'}}>
         <div className="container pt-6 pb-6">
           <div className="mb-4b">
             <a href="/">
@@ -101,8 +101,7 @@ class Footer extends Component {
                 <a
                   className="btn btn-white btn-block mx-auto mb-4"
                   href="/subscribe" 
-                  role="button"
-                  tabIndex="1">
+                  role="button">
                   Subscribe
                 </a>
               </div>
