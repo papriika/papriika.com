@@ -48,7 +48,7 @@ class Navbar extends Component {
             <span className="navbar-text navbar-text-tagline d-none d-md-block">
               Hotel Club
             </span>
-            <ul className="navbar-nav ml-auto">
+            <ul className="navbar-nav ml-auto d-flex align-items-md-center">
               <li className="nav-item d-md-none">
                 <a className="nav-link" href="/" >
                   Home
@@ -61,7 +61,7 @@ class Navbar extends Component {
               </li>
               <li className="nav-item">
                 <a 
-                  className="btn btn-sm btn-outline-black nav-button" 
+                  className="btn btn-sm btn-outline-black nav-button mt-4 mt-md-0" 
                   href="/subscribe"
                 >
                   Subscribe
