@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import Alert from '../components/Alert';
+import Alerts from '../components/Alerts';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
@@ -42,7 +42,7 @@ class Home extends Component {
       <div style={{
         backgroundColor: '#fff'
       }}>
-        <Alert
+        <Alerts
           size="alert-small"
           color="alert-black"
           className="text-center"
@@ -51,7 +51,7 @@ class Home extends Component {
           }}
           >
           Coming soon! Exclusive member rewards.
-        </Alert>
+        </Alerts>
 
         <Navbar colorScheme="navbar-light"/>
         <div className="container-fluid pl-0 pr-0 hero">
@@ -93,7 +93,7 @@ class Home extends Component {
           alt="Early Papriika membership inquiry 50% off"
           >
         </a>
-        <Alert
+        <Alerts
           color="alert-black"
           className="text-center"
           style={{
@@ -102,7 +102,7 @@ class Home extends Component {
           }}
           >
           We use the blockchain as a source of truth, guaranteeing <span style={{fontWeight: '900'}}>Travellers</span> and <span style={{fontWeight: '900'}}>Hôteliers</span> the best rates.
-        </Alert>
+        </Alerts>
         <Footer 
           className="mt-9"
           style={{

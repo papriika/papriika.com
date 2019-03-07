@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import '../css/Alert.css';
+import '../css/Alerts.css';
 
-class Alert extends Component {
+class Alerts extends Component {
   render() {
     return (
       <div 
@@ -14,4 +14,4 @@ class Alert extends Component {
   }
 }
 
-export default Alert;
+export default Alerts;

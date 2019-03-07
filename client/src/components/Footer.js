@@ -108,21 +108,19 @@ class Footer extends Component {
             </div>
           </div>
           <div className="container line w-100 bg-white mb-4c"></div>
-          <div className="small text-white-50 letter-space mb-2">
-            Papriika is a <a href="http://universe.engineering" 
-              alt="Universe.engineering"
-              className="text-white">
+            <div className="small text-white-30 letter-space mb-2">
+              Papriika is a <a href="http://universe.engineering" 
+                alt="Universe.engineering">
                 Universe Labs
               </a>
               &nbsp;open source, dapp initiative.
-          </div>
-          <div className="small text-white-50 letter-space mb-2">
-            <CopyrightUpdate 
-              style={{
-                display: 'inline-block'
-              }}
-            />
-            &nbsp;Papriika Inc.
+            </div>
+            <div className="small text-white-30 letter-space mb-2">
+              <CopyrightUpdate 
+                style={{
+                  display: 'inline-block'
+                }}/>
+              &nbsp;Papriika Inc.
           </div>
         </div>
       </footer>
