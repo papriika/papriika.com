@@ -7,7 +7,6 @@ import '../css/Navbar.css';
 const Nav = styled.nav`
   padding-top: 0.15rem;
   padding-bottom: 0.15rem;
-  background-color: #fff;
 
   @media (min-width: 768px) {
     padding-top: 0;
@@ -23,7 +22,7 @@ class Navbar extends Component {
   render() {
     return (
       <Nav 
-        className={`navbar navbar-expand-md ${this.props.colorScheme}`}
+        className={`navbar navbar-expand-md navbar-light bg-light ${this.props.colorScheme}`}
         style={this.props.style}>
         <div className="container">
           <a className="navbar-brand d-flex align-items-center" href="/">

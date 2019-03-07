@@ -25,7 +25,7 @@ class Subscribe extends Component {
             justify-content-center
             pl-0 pr-0
           ">
-          <div className="card col-md-8 mt-md-6">
+          <div className="card col-md-8 mt-4c mt-md-6">
             <div className="card-body">
               <Div className="mb-4">
                 <a href="/" className="brand d-block mb-4 mb-md-4b">
