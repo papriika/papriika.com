@@ -1,9 +1,5 @@
 /* Navbar */
 
-a.nav-link:hover {
-  color: rgba(0,0,0,0.5)!important;
-}
-
 .navbar-brand-img {
   width: 90px;
 }

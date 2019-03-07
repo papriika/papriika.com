@@ -2,28 +2,30 @@
 
 // Table of contents
 // -------------------------------
-// Color system                   // Pagination
-// Options                        // Jumbotron
-// Spacing                        // Cards
-// Body                           // Tooltips
-// Links                          // Popovers
-// Paragraphs                     // Toasts
-// Grid breakpoints               // Badges
-// Grid containers                // Modals
-// Grid columns                   // Alerts
-// Components                     // Progress bars
-// Typography                     // List group
-// Tables                         // Image thumbnails
-// Buttons + Forms                // Figures
-// Buttons                        // Breadcrumbs
-// Forms                          // Carousel
-// Form validation                // Spinners
-// Z-index master list            // Close
-// Navs                           // Code
-// Navbar                         // Utilities
-// Dropdowns                      // Printing
+// Color system                   // Jumbotron _jumbotron
+// Options                        // Cards _card
+// Spacing                        // Tooltips _tooltip
+// Body                           // Popovers _popover
+// Links                          // Toasts
+// Paragraphs                     // Badges
+// Grid breakpoints               // Modals
+// Grid containers                // Alerts _alert
+// Grid columns                   // Progress bars
+// Components _components         // List group _list-group
+// Typography _type               // Image thumbnails _images
+// Tables _tabeles                // Figures
+// Buttons + Forms                // Breadcrumbs
+// Buttons                        // Carousel
+// Forms _forms                   // Spinners
+// Form validation                // Close
+// Z-index master list            // Code _code
+// Navs _navs                     // Utilities _utilities
+// Navbar _navbar                 // Printing
+// Dropdowns _dropdown            // Brand
+// Pagination                     
 
 @import "node_modules/bootstrap/scss/variables";
+@import "./mixins/media-queries";
 
 // Color system
 
@@ -54,66 +56,8 @@ $body-color:                      $black;
 
 // Links
 
-$link-hover-color:          $gray-600;
-$link-hover-decoration:     none;
-
-// Components
-//
-// Define common padding and border radius sizes and more.
-
-$border-color:                $white;
-
-$border-radius:               .25rem;
-$border-radius-lg:            .25rem;
-$border-radius-sm:            .25rem;
-
-$box-shadow-sm:               0 .125rem .25rem rgba($black, .075) !default;
-$box-shadow:                  0 .5rem 1rem rgba($black, .15) !default;
-$box-shadow-lg:               0 1rem 3rem rgba($black, .175) !default;
-
-$transition-base:             all .2s ease-in-out;
-
-a { transition: $transition-base }
-a.link-dark { color: $dark; }
-
-
-// Buttons + Forms
-//
-// Shared variables that are reassigned to `$input-` and `$btn-` specific variables.
-
-$input-btn-padding-y:             .875rem;
-$input-btn-padding-x:             2.8125rem;
-
-$input-btn-padding-y-sm:          .625rem;
-$input-btn-padding-x-sm:          1rem;
-$input-btn-font-size-sm:          .75rem;
-$input-btn-line-height-sm:        1.25;
-
-// Buttons
-// More styles in Buttons.css
-
-$btn-font-size:                   .875rem;
-$btn-letter-spacing:              .0625rem;   // Custom
-$btn-text-transform:              uppercase;  // Custom
-
-$btn-border-radius:                  4px;
-$btn-border-radius-lg:               4px;
-$btn-border-radius-sm:               4px;
-
-$btn-transition:                  color .2s ease-in-out, 
-                                  background-color .2s ease-in-out, 
-                                  border-color .2s ease-in-out, 
-                                  box-shadow .2s ease-in-out;
-
-.btn {
-  letter-spacing:    $btn-letter-spacing;
-  text-transform:    $btn-text-transform;
-}
-
-
-$card-border-color:                 rgba($white, 1);
-$card-bg:                           $white;
-
+$link-hover-color:                $gray-600;
+$link-hover-decoration:           none;
 
 // Navbar
 
@@ -125,15 +69,17 @@ $navbar-light-color:                rgba(#000, 1);
 $navbar-light-hover-color:          rgba(#000, .5);
 $navbar-light-active-color:         primary;
 
-// Alerts
-// Refactor to include new color variables as well as sizes
+// Brand
 
-$alert-border-radius:               0;
-$alert-bg-level:                    0;
-$alert-border-level:                0;
-$alert-color-level:                 0;
+.brand-img {
+  width: 110px;
+}
 
-
-// Override default variables before the import
-// Import Bootstrap and its default variables
-
+@include respond-above(sm) {
+  .brand-img {
+    width: 120px;
+  }
+  .brand-img-md-pull-left {
+    margin-left: -2px;
+  }
+}

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import CopyrightUpdate from 'copyright-update';
-import '../css/Subscribe.css';
 
 // Using a ES6 class component as it contains state.
 class MailerSuccess extends Component {

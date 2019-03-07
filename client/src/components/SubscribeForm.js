@@ -5,7 +5,7 @@ class SubscribeForm extends Component {
     return (
       <form action="/" method="POST">
         <div className="form-group">
-          <label htmlFor="firstName">
+          <label htmlFor="firstName" className="d-none">
             First name 
             <span className="font-italic">
               &nbsp;- Optional
@@ -23,7 +23,7 @@ class SubscribeForm extends Component {
             aria-controls="first-name"
             aria-label="What is your first name?"
             aria-activedescendant="first-name-item-0" />
-          <label htmlFor="lastName">
+          <label htmlFor="lastName" className="d-none">
             Last name
             <span className="font-italic">
               &nbsp;- Optional
@@ -41,7 +41,7 @@ class SubscribeForm extends Component {
             aria-controls="last-name"
             aria-label="What is your last name?"
             aria-activedescendant="last-name-item-0" />
-          <label htmlFor="email">
+          <label htmlFor="email" className="d-none">
             Email address
           </label>
           <input 

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import CopyrightUpdate from 'copyright-update';
-import '../css/Subscribe.css';
 import logoWordmarkDark from './../img/papriika-logo-wordmark-1.svg';
 
 // Using a ES6 class component as it contains state.
@@ -16,10 +15,10 @@ class SubscribeError extends Component {
             justify-content-center
             pl-0 pr-0
           ">
-          <div className="card col-md-8">
+          <div className="card col-md-8 mt-md-6">
             <div className="card-body">
               <div className="text-center mb-4">
-                <a href="/" className="brand">
+                <a href="/" className="brand d-block mb-4 mb-md-4b">
                   <img
                     className="brand-img"
                     src={logoWordmarkDark} 

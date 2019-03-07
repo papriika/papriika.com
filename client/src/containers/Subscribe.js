@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import CopyrightUpdate from 'copyright-update';
 import SubscribeForm from '../components/SubscribeForm';
-import '../css/Subscribe.css';
 import logoWordmarkDark from './../img/papriika-logo-wordmark-1.svg';
 
 const Div = styled.div`
@@ -26,12 +25,12 @@ class Subscribe extends Component {
             justify-content-center
             pl-0 pr-0
           ">
-          <div className="card col-md-8">
+          <div className="card col-md-8 mt-md-6">
             <div className="card-body">
               <Div className="mb-4">
-                <a href="/" className="brand">
+                <a href="/" className="brand d-block mb-4 mb-md-4b">
                   <img
-                    className="brand-img"
+                    className="brand-img brand-img-md-pull-left"
                     src={logoWordmarkDark} 
                     alt="Papriika Logo"
                   />
@@ -45,10 +44,7 @@ class Subscribe extends Component {
               </Div>
               <SubscribeForm />
               <a
-                className="btn btn-link btn-subscribe btn-block mx-auto"
-                style={{
-                  marginTop: '16px'
-                }}
+                className="btn btn-link btn-subscribe btn-block mx-auto mt-3"
                 href="/" 
                 role="button">
                 Back to home

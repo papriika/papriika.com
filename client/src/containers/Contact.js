@@ -3,7 +3,6 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Social from '../components/Social';
 import ContactForm from '../components/ContactForm';
-import '../css/Subscribe.css';
 
 class Contact extends Component {
   state = {

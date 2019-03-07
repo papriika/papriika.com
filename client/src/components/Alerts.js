@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import '../css/Alerts.css';
 
 class Alerts extends Component {
   render() {
