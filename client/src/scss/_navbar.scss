@@ -1,5 +1,10 @@
 // Navbar
 
+$navbar-dark-color:                 rgba(#fff, 1);
+
+$navbar-light-color:                rgba(#000, 1);
+$navbar-light-hover-color:          rgba(#000, .5);
+
 @import "node_modules/bootstrap/scss/navbar";
 
 /* Navbar */

@@ -65,6 +65,12 @@ $btn-transition:                  color .2s ease-in-out,
   color: #fff!important;
 }
 
+.btn-black:hover {
+  color: #000!important;
+  background-color: transparent;
+  border-color: #000;
+}
+
 @include respond-above(sm) {
   .btn {
     padding: 15px 56px;
