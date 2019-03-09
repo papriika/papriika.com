@@ -4,7 +4,8 @@
 //
 
 // Meta
-@import 'node_modules/@universelabs/meta/scss/meta.scss';
+@import "node_modules/@universelabs/meta/scss/meta.scss";
+@import "mixins/media-queries";
 
 // Papriika
 @import "functions";
@@ -16,7 +17,6 @@
 @import "images";
 @import "code";
 @import "grid";
-@import "components";
 // @import "tables";
 @import "forms";
 @import "buttons";
@@ -45,3 +45,4 @@
 // @import "spinners";
 @import "utilities";
 // @import "print";
+@import "components";

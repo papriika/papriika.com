@@ -44,7 +44,7 @@ class Subscribe extends Component {
               </Div>
               <SubscribeForm />
               <a
-                className="btn btn-link btn-subscribe btn-block mx-auto mt-3"
+                className="btn btn-link btn-block mx-auto mt-3"
                 href="/" 
                 role="button">
                 Back to home

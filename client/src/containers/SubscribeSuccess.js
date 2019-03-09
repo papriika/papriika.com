@@ -35,7 +35,7 @@ class SubscribeSuccess extends Component {
                   To complete the subscription process, please click the link in the email we just sent you.
                 </p>
                 <a
-                  className="btn btn-secondary btn-subscribe mx-auto"
+                  className="btn btn-secondary mx-auto"
                   style={{
                     textDecoration: 'none'
                   }}

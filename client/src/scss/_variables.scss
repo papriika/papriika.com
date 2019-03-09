@@ -2,16 +2,15 @@
 
 // Table of contents
 // -------------------------------
-// Color system                   // Jumbotron _jumbotron
-// Options                        // Cards _card
-// Spacing                        // Tooltips _tooltip
-// Body                           // Popovers _popover
-// Links                          // Toasts
-// Paragraphs                     // Badges
-// Grid breakpoints               // Modals
-// Grid containers                // Alerts _alert
-// Grid columns                   // Progress bars
-// Components _components         // List group _list-group
+// Color system                   // Cards _card
+// Options                        // Tooltips _tooltip
+// Spacing                        // Popovers _popover
+// Body                           // Toasts
+// Links                          // Badges
+// Paragraphs                     // Modals
+// Grid breakpoints               // Alerts _alert
+// Grid containers                // Progress bars
+// Grid columns                   // List group _list-group
 // Typography _type               // Image thumbnails _images
 // Tables _tabeles                // Figures
 // Buttons + Forms                // Breadcrumbs
@@ -22,32 +21,32 @@
 // Navs _navs                     // Utilities _utilities
 // Navbar _navbar                 // Printing
 // Dropdowns _dropdown            // Brand
-// Pagination                     
+// Pagination                     // Components _components
+// Jumbotron _jumbotron
 
 @import "node_modules/bootstrap/scss/variables";
-@import "./mixins/media-queries";
 
 // Color system
 
 $picotee-900:   #181846;
+$primary:       #1700c4;
+$secondary:     $gray-200;
+$light:         $white;
+$dark:          $black;
 
-$theme-colors: (
-  "primary":   #1700c4,
-  "secondary": #eee,
-  "black":     #000,
-);
+$theme-colors: ();
 
 $theme-colors: map-merge(
   (
     "primary":    $primary,
+    "secondary":    $secondary,
     "black":      $black,
-    "picotee":    $picotee-900
+    "picotee":    $picotee-900,
+    "light":      $light,
+    "dark":       $dark
   ),
   $theme-colors
 );
-
-$light:                           #fff;
-$yiq-text-dark:                   $black;
 
 // Body 
 
@@ -56,8 +55,47 @@ $body-color:                      $black;
 
 // Links
 
+$link-color:                      $dark;
 $link-hover-color:                $gray-600;
 $link-hover-decoration:           none;
+
+.link-dynamic-light,
+.link-dynamic-dark {
+  display: inline-block;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+.link-dynamic-light:after,
+.link-dynamic-dark:after {
+  margin-top: -5px;
+  content: '';
+  display: block;
+  height: 2px;
+  width: 100%;
+  transition: width .3s ease, background-color .3s ease;
+}
+
+.link-dynamic-light:after {
+  background-color: $light;
+}
+
+.link-dynamic-dark:after {
+  background-color: $dark;
+}
+
+.link-dynamic-light:hover:after,
+.link-dynamic-dark:hover:after {
+  width: 0;
+}
+
+.link-dynamic-light:hover:after {
+  background: $light;
+}
+
+.link-dynamic-dark:hover:after {
+  background: $dark;
+}
 
 // Brand
 

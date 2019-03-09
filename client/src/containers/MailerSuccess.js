@@ -14,7 +14,7 @@ class MailerSuccess extends Component {
             justify-content-center
             pl-0 pr-0
           ">
-          <div className="card col-md-8">
+          <div className="card col-md-8 mt-4c mt-md-6">
             <div className="card-body">
               <div className="text-center mb-9">
                 <p className="lead-md font-weight-bold">
@@ -30,7 +30,7 @@ class MailerSuccess extends Component {
                   What's next?
                 </p>
                 <p className="mb-4b">
-                  Follow Papriika on <a href="https://www.facebook.com/papriikaco/" alt="Facebook Papriika (papriikaco)" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;Facebook&nbsp;</a>, <a href="https://www.instagram.com/papriikaco/" alt="Instagram Papriika (papriikaco)" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;Instagram&nbsp;</a> and <a href="https://twitter.com/UniverseLabs" alt="Twitter Papriika (@papriikaco)" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;Twitter&nbsp;</a>. <a href="https://github.com/papriika/" alt="GitHub Papriika (Papriika)" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;Star&nbsp;</a> the open source project. <a href="/subscribe" alt="Subscribe to newsletter" className="bg-black text-light mx-1">&nbsp;Subscribe&nbsp;</a> for offers.
+                  Follow Papriika on <a href="https://www.facebook.com/papriikaco/" alt="Facebook Papriika (papriikaco)" target="_blank" rel="noopener noreferrer" className="text-dark link-dynamic-dark">Facebook</a>, <a href="https://www.instagram.com/papriikaco/" alt="Instagram Papriika (papriikaco)" target="_blank" rel="noopener noreferrer" className="text-dark link-dynamic-dark">Instagram</a>, <a href="https://twitter.com/UniverseLabs" alt="Twitter Papriika (@papriikaco)" target="_blank" rel="noopener noreferrer" className="text-dark link-dynamic-dark">Twitter</a> and <a href="https://www.pinterest.com/papriika/" alt="Pinterest Papriika" target="_blank" rel="noopener noreferrer" className="text-dark link-dynamic-dark">Pinterest</a>. <a href="/subscribe" alt="Subscribe to newsletter" className="text-dark link-dynamic-dark">Subscribe</a> for offers.
                 </p>
               </div>
               <div className="text-center mb-4">

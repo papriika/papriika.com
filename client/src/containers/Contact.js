@@ -66,11 +66,11 @@ class Contact extends Component {
                 What's next?
               </p>
               <p className="mb-4b">
-                Follow Papriika on <a href="https://www.facebook.com/papriikaco/" alt="Facebook Papriika (papriikaco)" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;Facebook&nbsp;</a>, <a href="https://www.instagram.com/papriikaco/" alt="Instagram Papriika (papriikaco)" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;Instagram&nbsp;</a> and <a href="https://twitter.com/UniverseLabs" alt="Twitter Papriika (@papriikaco)" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;Twitter&nbsp;</a>. <a href="https://github.com/papriika/" alt="GitHub Papriika (Papriika)" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;Star&nbsp;</a> the open source project. <a href="/subscribe" alt="Subscribe to newsletter" className="bg-black text-light mx-1">&nbsp;Subscribe&nbsp;</a> for offers.
+                Follow Papriika on <a href="https://www.facebook.com/papriikaco/" alt="Facebook Papriika (papriikaco)" target="_blank" rel="noopener noreferrer" className="text-dark link-dynamic-dark">Facebook</a>, <a href="https://www.instagram.com/papriikaco/" alt="Instagram Papriika (papriikaco)" target="_blank" rel="noopener noreferrer" className="text-dark link-dynamic-dark">Instagram</a>, <a href="https://twitter.com/UniverseLabs" alt="Twitter Papriika (@papriikaco)" target="_blank" rel="noopener noreferrer" className="text-dark link-dynamic-dark">Twitter</a> and <a href="https://www.pinterest.com/papriika/" alt="Pinterest Papriika" target="_blank" rel="noopener noreferrer" className="text-dark link-dynamic-dark">Pinterest</a>. <a href="/subscribe" alt="Subscribe to newsletter" className="text-dark link-dynamic-dark">Subscribe</a> for offers.
               </p>
               <Social 
                 socialItems={this.state.socialItems}
-                className="lead link-dark"
+                className=""
                 listAlign="list-inline-item"
               />
             </div>

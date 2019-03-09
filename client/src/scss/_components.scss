@@ -14,8 +14,28 @@ a {
   transition: $transition-base
 }
 
-a.link-dark {
-  color: $dark;
+// Hack over text-dark
+a.text-dark {
+  color: $dark!important;
+}
+
+a.text-light {
+  color: $light!important;
+}
+
+a.text-black {
+  color: $black!important;
+}
+
+a.text-white {
+  color: $white!important;
+}
+
+a.text-dark:hover,
+a.text-light:hover,
+a.text-black:hover,
+a.text-white:hover {
+  color: $gray-600!important;
 }
 
  .line {

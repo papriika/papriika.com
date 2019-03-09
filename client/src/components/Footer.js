@@ -65,19 +65,19 @@ class Footer extends Component {
               <div className="col-sm-6 col-md-3 mb-4 ml-auto">
                 <ul className="list-unstyled my-2">
                   <li className="d-block mb-3">Destinations</li>
-                  <FooterColLeft />
+                  <FooterColLeft className="text-white"/>
                 </ul>
               </div>
               <div className="col-sm-6 col-md-3 mb-4">
                 <ul className="list-unstyled my-2">
                   <li className="d-block mb-3">Memberships</li>
-                  <FooterColCenter />
+                  <FooterColCenter className="text-white"/>
                 </ul>
               </div>
               <div className="col-sm-6 col-md-3 mb-4">
                 <ul className="list-unstyled my-2">
                   <li className="d-block mb-3">Company</li>
-                  <FooterColRight />
+                  <FooterColRight className="text-white"/>
                 </ul>
               </div>
             </div>
@@ -92,6 +92,7 @@ class Footer extends Component {
                 <Social 
                   socialItems={this.state.socialItems}
                   listAlign="list-inline-item"
+                  className="text-white"
                 />
               </ul>
               <div className="subscribe ml-auto pl-3 pr-3">
@@ -110,7 +111,7 @@ class Footer extends Component {
           <div className="container line w-100 bg-white mb-4c"></div>
             <div className="small text-white-30 letter-space mb-2">
               Papriika is a <a href="http://universe.engineering" 
-                alt="Universe.engineering">
+                alt="Universe.engineering" className="text-white">
                 Universe Labs
               </a>
               &nbsp;open source, dapp initiative.

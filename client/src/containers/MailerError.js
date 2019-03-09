@@ -14,7 +14,7 @@ class MailerError extends Component {
             justify-content-center
             pl-0 pr-0
           ">
-          <div className="card col-md-8">
+          <div className="card col-md-8 mt-4c mt-md-6">
             <div className="card-body">
               <div className="text-center mb-4">
                 <p className="lead-md font-weight-bold">
