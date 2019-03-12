@@ -1,6 +1,6 @@
 {
   "name": "client",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Papriika.com web client",
   "license": "MIT",
   "repository": {
@@ -22,12 +22,12 @@
     "client"
   ],
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=3005 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://localhost:5000",
+  "proxy": "http://localhost:9000",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.14",
     "@fortawesome/free-brands-svg-icons": "^5.7.1",

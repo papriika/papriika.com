@@ -39,6 +39,12 @@ class Footer extends Component {
         href: 'https://www.pinterest.com/papriika/',
         alt: 'Pinterest Papriika (Papriika)',
         icon: 'pinterest'
+      },
+      {
+        id: 6,
+        href: 'https://join.slack.com/t/papriika/shared_invite/enQtNTc1Mzk0MDUxMDYyLWE4YmMyNzM5MGQ1OTcxNjM2MzEyMjVhNTE1Y2M5ZWY3M2IyZjRlZGZjMGY2ZjdiMmJmOGUxMjA0YzA0OTg5OTc',
+        alt: 'Chat with developers',
+        icon: 'slack'
       }
     ]
   }
@@ -76,7 +82,7 @@ class Footer extends Component {
               </div>
               <div className="col-sm-6 col-md-3 mb-4">
                 <ul className="list-unstyled my-2">
-                  <li className="d-block mb-3">Company</li>
+                  <li className="d-block mb-3">Other</li>
                   <FooterColRight className="text-white"/>
                 </ul>
               </div>

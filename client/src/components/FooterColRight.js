@@ -4,10 +4,16 @@ class FooterColRight extends Component {
   state = {
     data : [
       {
-        "id": 7,
-        "url": "/contact",
-        "text": "Contact",
-        "alt": "Contact"
+        id: 1,
+        url: '/contact',
+        text: 'Contact',
+        alt: 'Contact'
+      },
+      {
+        id: 2,
+        url: 'https://join.slack.com/t/papriika/shared_invite/enQtNTc1Mzk0MDUxMDYyLWE4YmMyNzM5MGQ1OTcxNjM2MzEyMjVhNTE1Y2M5ZWY3M2IyZjRlZGZjMGY2ZjdiMmJmOGUxMjA0YzA0OTg5OTc',
+        text: 'Developers',
+        alt: 'Developers'
       }
     ]
   }
