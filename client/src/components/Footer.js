@@ -115,6 +115,13 @@ class Footer extends Component {
             </div>
           </div>
           <div className="container line w-100 bg-white mb-4c"></div>
+            <div className="mb-4">
+              <a 
+                href="https://opensource.guide/how-to-contribute"
+                className="btn btn-white btn-open-source ml-0">
+                 Open Source <span role="img" aria-label="heart">❤️</span>
+              </a>
+            </div>
             <div className="small text-white-30 letter-space mb-2">
               Papriika is a <a href="http://universe.engineering" 
                 alt="Universe.engineering" className="text-white">
