@@ -101,7 +101,7 @@ class Home extends Component {
             textTransform: 'none'
           }}
           >
-          We use the blockchain as a source of truth, guaranteeing <span style={{fontWeight: '900'}}>Travellers</span> and <span style={{fontWeight: '900'}}>Hôteliers</span> the best rates.
+          We use an open source and transprent database <span style={{fontWeight: '900'}}>Travellers</span> and <span style={{fontWeight: '900'}}>Hôteliers</span> the best rates.
         </Alerts>
         <Footer 
           className="mt-9"
