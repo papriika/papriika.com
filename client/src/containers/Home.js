@@ -69,7 +69,7 @@ class Home extends Component {
                   Access <HeadVariable>to over 2,400 of </HeadVariable>the world's best hotels.
                 </div>
                 <Lead className="lead font-weight-normal text-center mx-auto mb-4b">
-                  We use the blockchain to provide clear and open pricing. Saving hotels and you money.
+                  We use openness and transparency to provide clear and open pricing. Saving hotels and you money.
                 </Lead>
                 <div className="text-center">
                   <a
