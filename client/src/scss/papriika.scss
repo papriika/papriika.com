@@ -3,6 +3,9 @@
 // Licensed under MIT
 //
 
+// Type comes from Meta and is editable in variables.scss
+// If you need to edit any Meta type add type back in.
+
 // Meta
 @import "node_modules/@universelabs/meta/scss/meta.scss";
 @import "mixins/media-queries";
@@ -13,7 +16,7 @@
 @import "mixins";
 @import "root";
 @import "reboot";
-@import "type";
+// @import "type";
 @import "images";
 @import "code";
 @import "grid";
