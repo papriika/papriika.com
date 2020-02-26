@@ -97,17 +97,17 @@ $btn-transition:                  color .2s ease-in-out,
 @include respond-above(sm) {
   .btn-open-source {
     font-size: 12px;
-    padding-top: 8px;
-    padding-right: 32px;
-    padding-bottom: 8px;
-    padding-left: 16px;
+    padding-top: 6px;
+    padding-right: 13px;
+    padding-bottom: 9px;
+    padding-left: 15px;
   }
 
   /* Heart */
   .btn-open-source>span {
-    font-size: 17px;
-    position: absolute;
-    margin-top: -17px;
-    margin-left: 54px;
+    font-size: 16px;
+    position: relative;
+    margin-top: 3px;
+    margin-left: 3px;
   }
 }
