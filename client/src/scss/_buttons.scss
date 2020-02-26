@@ -80,34 +80,34 @@ $btn-transition:                  color .2s ease-in-out,
 .btn-open-source {
   font-size: 11px;
   line-height: 1.25;
-  padding-top: 6px;
-  padding-right: 28px;
-  padding-bottom: 6px;
-  padding-left: 8px;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 9px;
+  padding-left: 15px;
 }
 
 /* Heart */
-.btn-open-source>span {
-  font-size: 16px;
-  position: absolute;
-  margin-top: -16px;
-  margin-left: 49px;
+.btn-open-source > span {
+  position: relative;
+  top: 2px;
+  margin-left: 5px;
+  font-size: 15px;
 }
 
 @include respond-above(sm) {
   .btn-open-source {
     font-size: 12px;
-    padding-top: 8px;
-    padding-right: 32px;
-    padding-bottom: 8px;
-    padding-left: 16px;
+    padding-top: 6px;
+    padding-right: 13px;
+    padding-bottom: 9px;
+    padding-left: 15px;
   }
 
   /* Heart */
   .btn-open-source>span {
-    font-size: 17px;
-    position: absolute;
-    margin-top: -17px;
-    margin-left: 54px;
+    font-size: 16px;
+    position: relative;
+    margin-top: 3px;
+    margin-left: 3px;
   }
 }
