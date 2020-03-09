@@ -64,12 +64,13 @@ class Home extends Component {
                 <div className="display-4 text-center"
                   style={{
                     fontFamily: 'Judson, serif',
-                    fontWeight: '500'
+                    fontWeight: '900'
                   }}>
-                  Access <HeadVariable>to over 2,400 of </HeadVariable>the world's best hotels.
+                  {/* <HeadVariable>Never book a trip again</HeadVariable> */}
+                  Never book a trip again!
                 </div>
                 <Lead className="lead font-weight-normal text-center mx-auto mb-4b">
-                  We use openness and transparency to provide clear and open pricing. Saving hotels and you money.
+                  We're your personal travel assistant. We assign you to a like-minded Attaché who ensures you get the best trip. Everytime!
                 </Lead>
                 <div className="text-center">
                   <a
