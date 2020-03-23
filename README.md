@@ -6,22 +6,22 @@
     Papriika Hotel Club. Access the world's best hotels. Pay no booking fees.
     <br/>
     <a href="https://github.com/papriika/papriika.com"><strong>GitHub</strong></a>
-    &middot;
+    &nbsp;&middot;&nbsp;
      <a href="mailto:support@papriika.com?subject=Mail from GitHub Papriika.com"><strong>Contact</strong></a>
     <br/>
     <br/>
     <a href="http://papriika.com/" alt="Papriika">
       Website
     </a>
-    &middot;
+    &nbsp;&middot;&nbsp;
     <a href="https://www.facebook.com/papriikaco/" alt="Facebook Papriika">
       Facebook
     </a>
-    &middot;
+    &nbsp;&middot;&nbsp;
     <a href="https://www.instagram.com/papriikaco/" alt="Instagram Papriika">
       Instagram
     </a>
-    &middot;
+    &nbsp;&middot;&nbsp;
     <a href="https://www.pinterest.com/papriika/" alt="Pinterest Papriika">
       Pinterest
     </a>
@@ -30,7 +30,7 @@
     <a href="https://twitter.com/intent/follow?screen_name=PapriikaCo">
       <img src="https://img.shields.io/twitter/url/https/twitter.com/papriikaco.svg?style=social&label=Follow%20%40PapriikaCo&logo=twitter" alt="follow on Twitter">
     </a>
-    &nbsp;
+    &nbsp;&middot;&nbsp;
     <a href="https://github.com/papriika/papriika.com/stargazers">
       <img src="https://img.shields.io/github/stars/papriika/papriika.com.svg?style=social&label=Star&maxAge=2592000" alt="Star Repo">
     </a>
