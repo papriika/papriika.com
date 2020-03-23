@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://papriika.com">
-    <img src="https://user-images.githubusercontent.com/1711854/52179912-e49f9580-27ad-11e9-85fd-96ef9cbc9a4a.png" width=110 alt="Papriika">
+    <img src="https://storage.googleapis.com/papriika.com/img/papriika-logo-wordmark-1-512x512.png" width=115 alt="Papriika wordmark logo">
   </a>
   <p align="center">
     Papriika Hotel Club. Access the world's best hotels. Pay no booking fees.
