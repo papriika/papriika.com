@@ -3,7 +3,7 @@
     <img src="https://storage.googleapis.com/papriika.com/img/papriika-logo-wordmark-1-512x512.png" width=115 alt="Papriika wordmark logo">
   </a>
   <p align="center">
-    Papriika Hotel Club. Access the world's best hotels. Pay no booking fees.
+    Exclusive Travel Club
     <br/>
     <a href="https://github.com/papriika/papriika.com"><strong>GitHub</strong></a>
     &nbsp;&middot;&nbsp;
