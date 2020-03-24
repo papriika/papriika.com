@@ -46,7 +46,7 @@ class Navbar extends Component {
               </a>
             </Div>
             <span className="navbar-text navbar-text-tagline d-none d-md-block">
-              Hotel Club
+              Exclusive Travel Club
             </span>
             <ul className="navbar-nav ml-auto d-flex align-items-md-center">
               <li className="nav-item d-md-none">
