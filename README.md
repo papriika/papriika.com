@@ -3,7 +3,7 @@
     <img src="https://storage.googleapis.com/papriika.com/img/papriika-logo-wordmark-1-512x512.png" width=115 alt="Papriika wordmark logo">
   </a>
   <p align="center">
-    Exclusive travel club. We provide the best booking experience. Contact us today.
+    Papriika is an exclusive travel club providing curated content and access to hotels.
     <br/>
     <a href="https://github.com/papriika/papriika.com"><strong>GitHub</strong></a>
     &nbsp;&middot;&nbsp;
