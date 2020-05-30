@@ -27,13 +27,13 @@ const Lead = styled.p`
   }
 `;
 
-const HeadVariable = styled.span`
-  display: none;
+// const HeadVariable = styled.span`
+//   display: none;
 
-  @media (min-width: 768px) {
-    display: inline;
-  }
-`;
+//   @media (min-width: 768px) {
+//     display: inline;
+//   }
+// `;
 
 // Using a ES6 class component as it contains state.
 class Home extends Component {
