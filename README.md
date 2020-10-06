@@ -51,7 +51,7 @@
 
 ## Status
 
-[![Papriika.com version](https://img.shields.io/badge/dynamic/json.svg?label=Papriika.com+version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fpapriika%2Fpapriika.com%2Fmaster%2Fpackage.json&query=%24.version&colorA=%23212121&colorB=%2300BB00)](https://github.com/papriika/papriika.com)
+[![Papriika.com version](https://img.shields.io/badge/dynamic/json.svg?label=Papriika.com+version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fpapriika%2Fpapriika.com%2Fmaster%2Fclient%2Fpackage.json&query=%24.version&colorA=%23212121&colorB=%2300BB00)](https://github.com/papriika/papriika.com)
 [![dependencies status](https://img.shields.io/david/papriika/papriika.com.svg?label=dependencies&colorA=%23212121)](https://david-dm.org/papriika/papriika.com)
 [![devDependencies status](https://img.shields.io/david/dev/papriika/papriika.com.svg?label=devDependencies&colorA=%23212121)](https://david-dm.org/papriika/papriika.com?type=dev)
 
