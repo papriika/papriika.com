@@ -1,4 +1,4 @@
-const sslRedirect = require('heroku-ssl-redirect');
+const sslRedirect = require('heroku-ssl-redirect').default;
 const express = require('express');
 const morgan = require('morgan');
 const request = require('request');
