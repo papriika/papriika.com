@@ -19,4 +19,4 @@ A summary of the issue If suitable, include the tasks required for the issue.
 
 Any other information you want to share that is relevant to the issue. This might include the lines of code, screenshots, imagery, links, solutions, opinions, feedback, etc.
 
-**Reference(s)*
+**Reference(s)**
