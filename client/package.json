@@ -12,7 +12,7 @@
     "url": "https://github.com/papriika/papriika.com/issues/new"
   },
   "author": "Guy Lepage <guylepage3@gmail.com> (http://lepage.cc)",
-  "contributors": {
+  "contributions": {
     "url": "https://github.com/papriika/papriika.com/graphs/contributors"
   },
   "private": true,
@@ -33,19 +33,20 @@
     "@fortawesome/free-brands-svg-icons": "^5.15.1",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@fortawesome/react-fontawesome": "^0.1.11",
-    "@universelabs/meta": "1.12.0",
+    "@universelabs/meta": "^1.8.2",
     "bootstrap": "^4.5.2",
-    "copyright-update": "^1.10.0",
+    "copyright-update": "^1.7.3",
     "jquery": "^3.5.1",
     "jquery-ui-dist": "^1.12.1",
-    "node-sass": "^4.14.1",
+    "node-sass": "^8.0.0",
+    "npm-check-updates": "^16.3.25",
     "popper.js": "^1.16.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-flatpickr": "^3.10.6",
     "react-redux": "7.2.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.3",
+    "react-scripts": "^5.0.1",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
     "styled-components": "^5.2.0"
