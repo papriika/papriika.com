@@ -4,7 +4,7 @@
 /node_modules
 
 # config
-config/dev.js
+# config/dev.js
 
 # production
 /build
